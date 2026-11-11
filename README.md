@@ -71,3 +71,18 @@ These findings are observational associations and do not establish causation.
 This project demonstrates an end-to-end supervised machine learning workflow, including data preprocessing, feature engineering, classification, cross-validation, model comparison, threshold optimisation, evaluation and model interpretation.
 
 The final Logistic Regression pipeline was saved for reuse, along with its selected classification threshold.
+
+## Model Comparison
+
+The following chart compares Logistic Regression,
+Decision Tree and Random Forest performance.
+
+![Model Comparison](model_comparison.png)
+
+## Feature Importance
+
+Permutation importance identifies the features
+the model relies on most.
+
+![Feature Importance](feature_importance.png)
+
